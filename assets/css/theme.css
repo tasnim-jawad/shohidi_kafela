@@ -1,0 +1,40 @@
+:root{
+    --pg:#000100;
+    --brand1:#ef5c6e;
+    --brand2:#1a358d;
+    --white:#ffffff;
+    --black:#807a96;
+    --border:1px solid red;
+}
+
+p{
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "open-sans-regular";
+}
+
+
+@font-face {
+    font-family: 'solaiman_lipi_bold';
+    src: url('../fonts/solaimanlipi/SolaimanLipi_Bold_10-03-12.ttf');
+}
+
+@font-face {
+    font-family: 'solaiman_lipi';
+    src: url('../fonts/solaimanlipi/SolaimanLipi_22-02-2012.ttf');
+}
+@font-face {
+    font-family: 'DancingScript';
+    src: url('../fonts/Dancing_Script/static/DancingScript-Regular.ttf');
+}
+
+@keyframes up_down{
+    form{
+        top: 0px;
+    }
+    to{
+        top: 5px;
+    }
+    
+}
