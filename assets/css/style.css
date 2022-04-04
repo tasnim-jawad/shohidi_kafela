@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden;
+}
 body nav {
   background-color: var(--brand2);
   padding: 30px;
@@ -348,16 +351,32 @@ body #gallery .container .row .gallery_1 {
   height: 465px;
   width: 100%;
 }
+body #gallery .container .row .gallery_1 img {
+  height: 100%;
+  width: 100%;
+}
 body #gallery .container .row .row .gallery_2 {
   height: 135px;
+  width: 100%;
+}
+body #gallery .container .row .row .gallery_2 img {
+  height: 100%;
   width: 100%;
 }
 body #gallery .container .row .row .gallery_3 {
   height: 135px;
   width: 100%;
 }
+body #gallery .container .row .row .gallery_3 img {
+  height: 100%;
+  width: 100%;
+}
 body #gallery .container .row .row .gallery_4 {
   height: 330px;
+  width: 100%;
+}
+body #gallery .container .row .row .gallery_4 img {
+  height: 100%;
   width: 100%;
 }
 body #gallery .container .left_angle {
@@ -545,7 +564,7 @@ body #footer .row .line_five .news form .envelope {
   position: absolute;
   color: #0071BC;
   font-size: 16px;
-  top: 28%;
+  top: 20%;
   left: 6px;
   line-height: 14px;
   background-color: #ffffff;
