@@ -5,52 +5,54 @@ body{
         padding: 30px;
         .nav_body{
             // border: 1px solid red;
-            padding-left: 25px;
-            
-            .row{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            .home{
+                // border: 1px solid rgb(0, 255, 85);
+                text-align: right;
+                
+                a{
+                    font-size: 35px;
+                    line-height: 60px;
+                    width: 63px;
+                    background-color: #6788e5 ;
+                    color: black;
+                    text-align: center;
+                    clip-path: polygon(0% 50%, 25% 0, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+                }
+            }
+            .toggol_label{
+                display:none
+            }
+            .nav_toggol{
+                display:none
+            }
+            .nav_name{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
                 justify-content: center;
                 align-items: center;
-                .home{
-                    // border: 1px solid red;
-                    text-align: right;
-                    
+                font-size: 26px;
+                font-family: 'solaiman_lipi';
+                li{
+                    padding: 0px 20px;
+                    border-left: 1px solid #ffffff;
                     a{
-                        font-size: 35px;
-                        line-height: 60px;
-                        width: 63px;
-                        background-color: #6788e5 ;
-                        color: black;
-                        text-align: center;
-                        clip-path: polygon(0% 50%, 25% 0, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
-                        border-radius: 20px;
-                    }
-                    
-                }
-                .nav_name{
-                    display: inline-flex;
-                    justify-content: center;
-                    width: 100%;
-                    font-size: 26px;
-                    li{
-                        padding: 0px 20px;
-                        border-left: 1px solid #ffffff;
-                        font-family: 'solaiman_lipi';
-                        
-                        a{
-                            color: #ffffff;
-                        }
+                        color: #ffffff;
                     }
                 }
-
+                li:nth-child(1){
+                    border-left: unset;
+                }
+                
             }
         }
-
     }
     #banner{
-        // background-image: url(../images/banner.PNG);
-        // background-size: cover;
-        // background-repeat: no-repeat;
-        // height: 530px;
         background-color: var(--brand2);
         .banner_img{
             width: 100%;
@@ -62,6 +64,7 @@ body{
         }
     }
     #totthoponji{
+        margin-bottom: 30px;
         .container{
             .row{
                 justify-content: center;
@@ -231,7 +234,7 @@ body{
         }
     }
     #sriticaron{
-        margin: 15px 0px;
+        margin-bottom: 40px;
         .container{
             position: relative;
             .row{
@@ -340,7 +343,7 @@ body{
         }
     }
     #gallery{
-        margin: 15px 0px;
+        margin-bottom: 40px;
         .container{
             position: relative;
             .row{
@@ -436,12 +439,12 @@ body{
         }
     }
     #poster{
+        margin-bottom: 40px;
         .container{
             .row{
-
                 .common_heading{
                     position: relative;
-                    margin-bottom: 20px;
+                    // margin-bottom: 20px;
                     h3{
                         font-size: 30px;
                         line-height: 30px;

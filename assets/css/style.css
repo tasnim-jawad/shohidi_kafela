@@ -6,16 +6,16 @@ body nav {
   padding: 30px;
 }
 body nav .nav_body {
-  padding-left: 25px;
-}
-body nav .nav_body .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-body nav .nav_body .row .home {
+body nav .nav_body .home {
   text-align: right;
 }
-body nav .nav_body .row .home a {
+body nav .nav_body .home a {
   font-size: 35px;
   line-height: 60px;
   width: 63px;
@@ -23,21 +23,31 @@ body nav .nav_body .row .home a {
   color: black;
   text-align: center;
   clip-path: polygon(0% 50%, 25% 0, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
-  border-radius: 20px;
 }
-body nav .nav_body .row .nav_name {
-  display: inline-flex;
+body nav .nav_body .toggol_label {
+  display: none;
+}
+body nav .nav_body .nav_toggol {
+  display: none;
+}
+body nav .nav_body .nav_name {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
+  align-items: center;
   font-size: 26px;
-}
-body nav .nav_body .row .nav_name li {
-  padding: 0px 20px;
-  border-left: 1px solid #ffffff;
   font-family: 'solaiman_lipi';
 }
-body nav .nav_body .row .nav_name li a {
+body nav .nav_body .nav_name li {
+  padding: 0px 20px;
+  border-left: 1px solid #ffffff;
+}
+body nav .nav_body .nav_name li a {
   color: #ffffff;
+}
+body nav .nav_body .nav_name li:nth-child(1) {
+  border-left: unset;
 }
 body #banner {
   background-color: var(--brand2);
@@ -49,6 +59,9 @@ body #banner .banner_img {
 body #banner .banner_img img {
   width: 100%;
   height: 100%;
+}
+body #totthoponji {
+  margin-bottom: 30px;
 }
 body #totthoponji .container .row {
   justify-content: center;
@@ -210,7 +223,7 @@ body #totthoponji .container .row .cards_body .right_angle {
   border-radius: 10px;
 }
 body #sriticaron {
-  margin: 15px 0px;
+  margin-bottom: 40px;
 }
 body #sriticaron .container {
   position: relative;
@@ -312,7 +325,7 @@ body #sriticaron .container .right_angle {
   border-radius: 10px;
 }
 body #gallery {
-  margin: 15px 0px;
+  margin-bottom: 40px;
 }
 body #gallery .container {
   position: relative;
@@ -399,9 +412,11 @@ body #gallery .container .right_angle {
   width: 35px;
   border-radius: 10px;
 }
+body #poster {
+  margin-bottom: 40px;
+}
 body #poster .container .row .common_heading {
   position: relative;
-  margin-bottom: 20px;
 }
 body #poster .container .row .common_heading h3 {
   font-size: 30px;

@@ -1,4 +1,64 @@
+@media  (max-width: 991.98px){
+    /* body nav .nav_body{
+        position: relative;
+    } */
+    body nav .nav_body{
+        justify-content: space-between;
+    }
+    
+    body nav .nav_body .toggol_label{
+        z-index: 9999;
+        background-color: rgb(255, 255, 255);
+        display: block;
+        border: 2px solid rgb(56, 58, 56);
+        border-radius: 5px;
+        width: 34px;
+        line-height: 30px;
+        text-align: center;
+        align-items: center;
+    }
+    body nav .nav_body .nav_name {
+        position: absolute;
+        /* position: fixed; */
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.671);
+        backdrop-filter: blur(10px);
+        width: 100%;
+        height: 56VH;
+        top: 100px;
+        left: 100%;
+        text-align: left;
+        align-content: flex-start;
+        align-items: flex-start;
+        padding-top:1em;
+        z-index: 1000;
+        justify-content: flex-start;
+        transition: all ease-in-out 400ms;
 
+    }
+    body nav .nav_body .nav_name li {
+        text-align: left;
+        border-left: none;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        padding: 0px;
+    }
+    body nav .nav_body .nav_name li a {
+        color: #000;
+        line-height: 37px;
+        border-bottom: 2px solid transparent;
+        transform-origin: left;
+        transition: all ease-in-out 400ms;
+      }
+    body nav .nav_body .nav_name li a:hover{
+        border-bottom: 2px solid rgb(7, 2, 2);
+    }
+    body nav .nav_body .nav_toggol:checked ~ .nav_name{
+        left: 0%;
+        transition: all ease-in-out 400ms;
+    }
+    
+}
 /* xs */
 @media screen and (max-width: 575.98px){
 
@@ -298,7 +358,62 @@
 
 }
 /* lg */
-@media (min-width: 992px) and (max-width: 1199.98px){}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    /* sriticaron start*/
+    body #sriticaron {
+        margin: 80px 0px;
+    }
+    body #sriticaron .container .left_angle {
+        top: unset;
+        left: 16px;
+        bottom: -40px;
+        width: 150px;
+        
+    }
+    body #sriticaron .container .right_angle {
+        top: unset;
+        right: 16px;
+        bottom: -40px;
+        width: 150px;
+    }
+    /* sriticaron end*/
+    /* gallery start*/
+    body #gallery {
+        margin: 80px 0px;
+    }
+    
+    body #gallery .container .left_angle {
+        top: unset;
+        left: 12px;
+        bottom: -40px;
+        width: 150px;
+        
+    }
+    body #gallery .container .right_angle {
+        top: unset;
+        right: 12px;
+        bottom: -40px;
+        width: 150px;
+    }
+    /* gallery end*/
+     /* poster start */
+     #poster{
+        margin-bottom: 50px;
+    }
+    
+    body #poster .container .row {
+        margin: unset;
+    }
+    body #poster .container .row .common_heading {
+        margin-bottom: 10px;
+    }
+    /* poster end */
+    /* footer start */
+    body #footer .row .line_five .news form .subscribe{
+        font-size: 5px;
+    }
+    /* footer end */
+}
 /* xl */
 @media (min-width: 1200px) and (max-width: 1399.98px){}
 /* xxl */
