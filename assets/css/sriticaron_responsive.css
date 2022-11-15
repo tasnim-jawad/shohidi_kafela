@@ -23,12 +23,11 @@
     }
     body nav .nav_body .nav_name {
         position: absolute;
-        /* position: fixed; */
         flex-direction: column;
         background-color: rgba(255, 255, 255, 0.671);
         backdrop-filter: blur(10px);
         width: 100%;
-        height: 42VH;
+        height: 62VH;
         top: 182px;
         left: 100%;
         text-align: left;
@@ -68,7 +67,69 @@
 }
 /* xs */
 @media screen and (max-width: 575.98px){
-
+    body header h1 {
+        font-size: 60px;
+        color: var(--brand2);
+      }
+    body nav .nav_body .nav_name{
+        top:160px
+    }
+    body .column_card p {
+        text-align: justify;
+    }
+    body .column_card .share {
+        flex-direction: column;
+        gap: 2em;
+    }
+    body .column_card .share .share_social {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 1em;
+    }
+    body .column_card .share .share_social h5 {
+        margin-left: 10px;
+    }
+    body .writer_card h3 {
+        text-align: center;
+    }
+    body .writer_card .writer {
+        flex-direction: column;
+    }
+    body .writer_card .writer .writer_image {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 40px 0px 20px 0px;
+    }
+    body .writer_card .writer h3 {
+        margin: 0px;
+    }
+    body .writer_card .writer .dievider {
+        display: none;
+    }
+    body .writer_card .writer a {
+        margin-left: 0px;
+    }
+    body .writer_card p {
+        text-align: justify;
+    }
+    body #read_more .left_angle {
+        width: 100px;
+    }
+    body #read_more .right_angle {
+        width: 100px;
+    }
+    body #write_you .button_wrap .button h3 {
+        font-size: 30px;
+        padding: 0px 15px;
+    }
+    body #write_you .button_wrap .button p i {
+        font-size: 40px;
+    }
+    body #write_you .button_wrap .button p {
+        padding-left: 8px;
+    }
     /* footer start */
     body #footer .row .line_two,
     body #footer .row .line_three,
@@ -82,7 +143,15 @@
 
 /* sm */
 @media (min-width: 576px) and (max-width: 767.98px){
-   
+    .line_1{
+        justify-content: center;
+    }
+    body .column_card p {
+        text-align: justify;
+    }
+    body .writer_card p {
+        text-align: justify;
+    }
 
     /* footer start */
     body #footer .row .line_one,

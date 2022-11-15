@@ -242,6 +242,108 @@ body #montobbo .montobbo_form button {
   border-radius: 5px;
   box-shadow: 1px 1px 2px #575555;
 }
+body #read_more h3 {
+  font-size: 25px;
+  padding: 25px 0px;
+  text-align: center;
+  font-family: 'solaiman_lipi';
+}
+body #read_more .sriti_card {
+  background-color: #ffffff;
+  align-items: center;
+  border-radius: 0px;
+  text-align: center;
+}
+body #read_more .sriti_card .image {
+  height: 230px;
+  width: 100%;
+  border-radius: 50%;
+}
+body #read_more .sriti_card .image img {
+  height: 100%;
+  width: 100%;
+}
+body #read_more .sriti_card h3 {
+  font-size: 20px;
+  line-height: 20px;
+  font-family: 'solaiman_lipi';
+  font-weight: 400;
+  padding: 10px 0px;
+  color: black;
+}
+body #read_more .sriti_card p {
+  font-size: 11px;
+  line-height: 15px;
+  font-family: 'solaiman_lipi';
+  font-weight: 600;
+  color: black;
+  text-align: justify;
+  margin-bottom: 10px;
+  text-align: center;
+}
+body #read_more .sriti_card a {
+  font-size: 20px;
+  line-height: 20px;
+  font-family: 'solaiman_lipi';
+  font-weight: 400;
+  padding: 10px 20px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 50px;
+}
+body #read_more .left_angle {
+  position: absolute;
+  left: 16px;
+  bottom: -40px;
+  width: 150px;
+  background-color: #CCCCCC;
+  font-size: 20px;
+  line-height: 35px;
+  border-radius: 10px;
+}
+body #read_more .right_angle {
+  position: absolute;
+  right: 16px;
+  bottom: -40px;
+  width: 150px;
+  background-color: #CCCCCC;
+  font-size: 20px;
+  line-height: 35px;
+  border-radius: 10px;
+}
+body #write_you {
+  margin: 100px 0px;
+}
+body #write_you .button_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+body #write_you .button_wrap .button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #22B573;
+  border-radius: 5px;
+}
+body #write_you .button_wrap .button h3 {
+  font-size: 50px;
+  font-family: 'solaiman_lipi';
+  padding: 0px 20px;
+  width: auto;
+  color: #ffffff;
+}
+body #write_you .button_wrap .button p {
+  padding-left: 30px;
+  width: auto;
+}
+body #write_you .button_wrap .button p i {
+  font-size: 60px;
+  color: #ffffff;
+}
 body #footer {
   background-color: var(--brand2);
 }
