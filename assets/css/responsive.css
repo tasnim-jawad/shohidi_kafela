@@ -24,7 +24,7 @@
         background-color: rgba(255, 255, 255, 0.671);
         backdrop-filter: blur(10px);
         width: 100%;
-        height: 56VH;
+        height: 63VH;
         top: 100px;
         left: 100%;
         text-align: left;
@@ -324,6 +324,10 @@
     /* gallery end*/
 
     /* poster start */
+    body #poster .container .row {
+        justify-content: space-evenly;
+        margin-bottom: 5px;
+    }
     #poster{
         margin-bottom: 60px;
     }
